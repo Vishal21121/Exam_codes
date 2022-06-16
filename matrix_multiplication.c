@@ -32,7 +32,7 @@ int matrix(int arr[], int n){
 
 int main()
 {
-    int arr[] = {1,2,3,4};
+    int arr[] = {10,20,30,40,30};
     int size = sizeof(arr)/sizeof(arr[0]);
     printf("The matrix is : %d",matrix(arr,size));
     return 0;
