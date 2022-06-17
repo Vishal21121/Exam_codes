@@ -1,7 +1,10 @@
 #include<stdio.h>
 
 int maximum(int arr[],int index,int length){
-    int max;
+    if(length==1){
+        return arr[0];
+    }
+    int max = 0;
     if(index >= length-2)
     {
         if(arr[index] > arr[index + 1])
